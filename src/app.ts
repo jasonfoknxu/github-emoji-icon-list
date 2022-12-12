@@ -1,6 +1,6 @@
 /**
- * add  Generator
- * - Version: 1.0.0
+ * GitHub Emoji Icon Icon Markdown Generator
+ * - Version: 1.0.1
  * - Developer: NXU (GitHub: @jasonfoknxu)
  * - https://github.com/jasonfoknxu/github-emoji-icon-list
  */
@@ -30,7 +30,7 @@ import * as Utils from './utilities';
     // Process the Unicode emoji data from the Unicode Emoji Data text
     const unicodeEmojiLines = unicodeEmojisData.split(/\r?\n/);
     let unicodeEmojis: IUnicodeEmojiData = {};
-    let group, subgroup, emojiGroups = [], emojiSubgroups = [], emojiCount = 0;
+    let group = '', subgroup = '', emojiGroups = [], emojiSubgroups = [], emojiCount = 0;
     for (let i = 0; i < unicodeEmojiLines.length; i++) {
         const parseResult = Utils.parse(unicodeEmojiLines[i]);
         if (!parseResult) { continue; }
