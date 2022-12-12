@@ -6,9 +6,11 @@ The first column is the emoji icon, second column is the shortcode for Markdown,
 
 *The emoji may be displayed in different result on various system*
 
+![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)
+
 ## Table of Contents
 
-- [Smileys & Emotion](#smileys--emotion))
+- [Smileys & Emotion](#smileys--emotion)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -17,7 +19,7 @@ The first column is the emoji icon, second column is the shortcode for Markdown,
 |[:triumph: Face Negative](#face-negative)|[:hankey: Face Costume](#face-costume)|[:smiley_cat: Cat Face](#cat-face)|[:see_no_evil: Monkey Face](#monkey-face)|[:love_letter: Heart](#heart)|
 |[:kiss: Emotion](#emotion)|
 
-- [People & Body](#people--body))
+- [People & Body](#people--body)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -26,21 +28,21 @@ The first column is the emoji icon, second column is the shortcode for Markdown,
 |[:angel: Person Fantasy](#person-fantasy)|[:massage: Person Activity](#person-activity)|[:person_fencing: Person Sport](#person-sport)|[:lotus_position: Person Resting](#person-resting)|[:people_holding_hands: Family](#family)|
 |[:speaking_head: Person Symbol](#person-symbol)|
 
-- [Animals & Nature](#animals--nature))
+- [Animals & Nature](#animals--nature)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |[:monkey_face: Animal Mammal](#animal-mammal)|[:turkey: Animal Bird](#animal-bird)|[:frog: Animal Amphibian](#animal-amphibian)|[:crocodile: Animal Reptile](#animal-reptile)|[:whale: Animal Marine](#animal-marine)|
 |[:snail: Animal Bug](#animal-bug)|[:bouquet: Plant Flower](#plant-flower)|[:seedling: Plant Other](#plant-other)|
 
-- [Food & Drink](#food--drink))
+- [Food & Drink](#food--drink)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |[:grapes: Food Fruit](#food-fruit)|[:avocado: Food Vegetable](#food-vegetable)|[:bread: Food Prepared](#food-prepared)|[:bento: Food Asian](#food-asian)|[:crab: Food Marine](#food-marine)|
 |[:icecream: Food Sweet](#food-sweet)|[:baby_bottle: Drink](#drink)|[:chopsticks: Dishware](#dishware)|
 
-- [Travel & Places](#travel--places))
+- [Travel & Places](#travel--places)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -48,13 +50,13 @@ The first column is the emoji icon, second column is the shortcode for Markdown,
 |[:steam_locomotive: Transport Ground](#transport-ground)|[:anchor: Transport Water](#transport-water)|[:airplane: Transport Air](#transport-air)|[:bellhop_bell: Hotel](#hotel)|[:hourglass: Time](#time)|
 |[:new_moon: Sky & Weather](#sky--weather)|
 
-- [Activities](#activities))
+- [Activities](#activities)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |[:jack_o_lantern: Event](#event)|[:medal_military: Award Medal](#award-medal)|[:soccer: Sport](#sport)|[:dart: Game](#game)|[:performing_arts: Arts & Crafts](#arts--crafts)|
 
-- [Objects](#objects))
+- [Objects](#objects)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -63,7 +65,7 @@ The first column is the emoji icon, second column is the shortcode for Markdown,
 |[:pencil2: Writing](#writing)|[:briefcase: Office](#office)|[:lock: Lock](#lock)|[:hammer: Tool](#tool)|[:alembic: Science](#science)|
 |[:syringe: Medical](#medical)|[:door: Household](#household)|[:smoking: Other Object](#other-object)|
 
-- [Symbols](#symbols))
+- [Symbols](#symbols)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -71,7 +73,7 @@ The first column is the emoji icon, second column is the shortcode for Markdown,
 |[:twisted_rightwards_arrows: Av Symbol](#av-symbol)|[:female_sign: Gender](#gender)|[:heavy_multiplication_x: Math](#math)|[:bangbang: Punctuation](#punctuation)|[:currency_exchange: Currency](#currency)|
 |[:medical_symbol: Other Symbol](#other-symbol)|[:hash: Keycap](#keycap)|[:capital_abcd: Alphanum](#alphanum)|[:red_circle: Geometric](#geometric)|
 
-- [Flags](#flags))
+- [Flags](#flags)
 
 |   |   |   |   |   |
 |:-----:|:-----:|:-----:|:-----:|:-----:|
