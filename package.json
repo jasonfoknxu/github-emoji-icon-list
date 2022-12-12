@@ -1,0 +1,22 @@
+{
+  "name": "github-emoji-icon-list",
+  "version": "1.0.0",
+  "description": "Generate GitHub Emoji Icon list in Markdown format.",
+  "homepage": "https://github.com/jasonfoknxu/github-emoji-icon-list",
+  "author": "jasonfoknxu <nxu@nxu.biz> (https://nxuweb.net)",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "repository": "github:jasonfoknxu/github-emoji-icon-list",
+  "private": false,
+  "scripts": {
+    "start": "ts-node --files src/app.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "axios": "^1.2.1"
+  }
+}

@@ -1,0 +1,39 @@
+name: Auto Update
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * 7"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      AUTO_COMMIT_MESSAGE: Auto Update by GitHub Actions
+      AUTO_COMMIT_AUTHOR: github-actions[bot]
+      AUTO_COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - name: Install Dependencies
+        run: yarn --frozen-lockfile
+      - name: Generate the GitHub Emoji Icon List Markdown
+        run: yarn start
+
+      # Commit and push the README.md
+      - name: Update the README.md (Commit and Push)
+        run: |
+          git config --global user.name "${{ env.AUTO_COMMIT_AUTHOR }}"
+          git config --global user.email "${{ env.AUTO_COMMIT_EMAIL }}"
+          git add README.md
+          git commit -m "${{ env.AUTO_COMMIT_MESSAGE }}"
+          git push
