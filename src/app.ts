@@ -1,6 +1,6 @@
 /**
- * GitHub Emoji Icon Icon Markdown Generator
- * - Version: 1.0.1
+ * GitHub Emoji Icon Markdown Generator
+ * - Version: 1.0.2
  * - Developer: NXU (GitHub: @jasonfoknxu)
  * - https://github.com/jasonfoknxu/github-emoji-icon-list
  */
@@ -105,7 +105,7 @@ import * as Utils from './utilities';
             tableOfContents += `|${tocColumns.join('|')}|\n`;
             tocColumns = [];
         }
-        tableOfContents += `\n- ${Utils.anchor(groupTitle)})\n\n`;
+        tableOfContents += `\n- ${Utils.anchor(groupTitle)}\n\n`;
         tableOfContents += `|   |   |   |   |   |\n`;
         tableOfContents += `|:-----:|:-----:|:-----:|:-----:|:-----:|\n`;
 
@@ -154,6 +154,9 @@ import * as Utils from './utilities';
 
     // Add Table of Contents
     markdown = tableOfContents + '\n\n' + markdown;
+
+    // Add GitHub Actions badge (Auto Update)
+    markdown = `![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)\n\n` + markdown;
 
     // Introduction
     markdown = `This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The list is automatically generated from [GitHub Emoji API](${config.GitHub_Emojis_List}) with the information from [Unicode Emoji data file](${config.Unicode_Emojis_Data}).\n\nThe first column is the emoji icon, second column is the shortcode for Markdown, third column is the name of the emoji from the Unicode data.\n\n*The emoji may be displayed in different result on various system*\n\n` + markdown;
