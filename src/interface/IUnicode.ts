@@ -1,7 +1,8 @@
 interface IUnicode {
     type: string,
     name: string,
-    unicode?: string
+    unicode?: string,
+    original?: string
 }
 
 interface IUnicodeEmojiData {
@@ -12,5 +13,6 @@ interface IUnicodeEmoji {
     name: string,
     group: string,
     subgroup: string,
-    order: number
+    order: number,
+    origUnicode?: string
 }

@@ -2,7 +2,9 @@ interface IEmoji {
     unicode: string,
     shortcode?: string,
     name: string,
-    order: number
+    order?: number,
+    emoji?: string,
+    origUnicode?: string
 }
 
 interface IEmojiGroup {

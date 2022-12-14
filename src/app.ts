@@ -1,6 +1,6 @@
 /**
- * GitHub Emoji Icon Markdown Generator
- * - Version: 1.0.2
+ * GitHub Emoji Icon List Markdown Generator
+ * - Version: 1.0.3
  * - Developer: NXU (GitHub: @jasonfoknxu)
  * - https://github.com/jasonfoknxu/github-emoji-icon-list
  */
@@ -21,10 +21,14 @@ import * as Utils from './utilities';
         process.exit(1);
     }
 
+    // Count number of GitHub emoji
+    let numberOfEmoji = 0;
+
     // Handle the GitHub emoji from the GitHub Emoji Icon List
     let githubEmojis: IGithubEmoji = {};
     for (const [shortcode, url] of Object.entries(githubEmojisData)) {
         githubEmojis[shortcode] = Utils.base(url).toUpperCase();
+        numberOfEmoji++;
     }
 
     // Process the Unicode emoji data from the Unicode Emoji Data text
@@ -46,7 +50,8 @@ import * as Utils from './utilities';
                 name: parseResult.name,
                 group: group ?? '',
                 subgroup: subgroup ?? '',
-                order: emojiCount++
+                order: emojiCount++,
+                origUnicode: parseResult.original
             };
         }
     }
@@ -65,10 +70,10 @@ import * as Utils from './utilities';
                 if (!emojis[emojiData.group][emojiData.subgroup]) {
                     emojis[emojiData.group][emojiData.subgroup] = [];
                 }
-            const emojiToAdd = {unicode: unicode, shortcode: shortcode, name: emojiData.name, order: emojiData.order};
+            const emojiToAdd = {unicode: unicode, shortcode: shortcode, name: emojiData.name, order: emojiData.order, origUnicode: emojiData.origUnicode };
             // Ordering the emoji within the subgroup
             const index = emojis[emojiData.group][emojiData.subgroup].findIndex((emoji) => {
-                return emoji.order > emojiToAdd.order;
+                return (emoji.order ?? 0) > emojiToAdd.order;
             });
             if (index > -1) {
                 emojis[emojiData.group][emojiData.subgroup].splice(index, 0, emojiToAdd);
@@ -77,6 +82,23 @@ import * as Utils from './utilities';
             }
         }
     }
+
+    // Export the emoji list to format the JSON
+    let exportEmoji: IEmojiGroup = {};
+    for (const group in emojis) {
+        exportEmoji[group] = {};
+        for (const subgroup in emojis[group]) {
+            exportEmoji[group][Utils.title(subgroup)] = emojis[group][subgroup].map((e) => ({
+                unicode: Utils.toUnicode(e.origUnicode ?? e.unicode),
+                shortcode: `:${e.shortcode}:` ?? '',
+                name: e.name,
+                emoji: Utils.toEmoji(e.origUnicode ?? e.unicode)
+            }));
+        }
+    }
+
+    // Write to a JSON file
+    await Utils.writeFile('github-emoji.json',JSON.stringify(exportEmoji));
 
     // Sort the emoji from group and subgroup
     let organizedEmoji: EmojiGroup[] = [];
@@ -141,7 +163,7 @@ import * as Utils from './utilities';
     // Add GitHub Custom Emoji
     tableOfContents += `\n- ${Utils.anchor('GitHub Custom Emoji')}\n\n`;
 
-    markdown += `### GitHub Custom Emoji\n\n`;
+    markdown += `## GitHub Custom Emoji\n\n`;
     markdown += `|Emoji|Shortcode|\n`;
     markdown += `|:---:|:-----:|\n`;
     for (let x = 0; x < customGroup.length; x++) {
@@ -155,11 +177,20 @@ import * as Utils from './utilities';
     // Add Table of Contents
     markdown = tableOfContents + '\n\n' + markdown;
 
+    // icon divider
+    markdown = ':red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle: :purple_circle: :brown_circle: :black_circle: :white_circle: :red_square: :orange_square: :yellow_square: :green_square: :large_blue_square: :purple_square: :brown_square: :black_large_square: :white_large_square: \n\n' + markdown;
+
     // Add GitHub Actions badge (Auto Update)
-    markdown = `![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)\n\n` + markdown;
+    markdown = `[![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml) :robot: Auto update by GitHub Actions every week.\n\n` + markdown;
+
+    // Add the Json version info
+    markdown = `[:floppy_disk: JSON version](https://github.com/jasonfoknxu/github-emoji-icon-list/blob/main/github-emoji.json) is available. Feel free to use it for further development.\n\n` + markdown;
+
+    // Add the Json version info
+    markdown = `:bar_chart: Number of GitHub Emoji Icon: ${Utils.numberIcon(numberOfEmoji)}\n\n` + markdown;
 
     // Introduction
-    markdown = `This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The list is automatically generated from [GitHub Emoji API](${config.GitHub_Emojis_List}) with the information from [Unicode Emoji data file](${config.Unicode_Emojis_Data}).\n\nThe first column is the emoji icon, second column is the shortcode for Markdown, third column is the name of the emoji from the Unicode data.\n\n*The emoji may be displayed in different result on various system*\n\n` + markdown;
+    markdown = `This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The list is automatically generated from [:octocat: GitHub Emoji API](${config.GitHub_Emojis_List}) with the information from [Unicode Emoji data file](${config.Unicode_Emojis_Data}).\n\n> :information_source: *The emoji may be displayed in different result on various system or browser*\n\n` + markdown;
 
     // Heading
     markdown = `# GitHub Emoji Icon List\n\n` + markdown;

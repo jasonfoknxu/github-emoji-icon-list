@@ -5,6 +5,7 @@ on:
       - main
     paths-ignore:
       - 'README.md'
+      - 'github-emoji.json'
   pull_request:
     branches:
       - main
@@ -34,6 +35,6 @@ jobs:
         run: |
           git config --global user.name "${{ env.AUTO_COMMIT_AUTHOR }}"
           git config --global user.email "${{ env.AUTO_COMMIT_EMAIL }}"
-          git add README.md
+          git add README.md github-emoji.json
           git commit -m "${{ env.AUTO_COMMIT_MESSAGE }}"
           git push

@@ -63,9 +63,11 @@ const parse = (text: string): IUnicode | null => {
     const dataRegex = /^(.+)\s+;.+#.+E[\d.]+\s+(.+)$/i;
     const dataMatch = text.match(dataRegex);
     if (dataMatch !== null) {
+        let unicode = dataMatch[1].trim();
         // \u200d is the joiner unicode which is not used in GitHub icon file naming
-        const unicode = dataMatch[1].trim().replace(/\s200D/g, '').replace(/\s/g, '-').toUpperCase();
-        return {type: 'emoji', name: dataMatch[2].trim(), unicode: unicode};
+        const originalUnicode = (unicode.includes(' 200D')) ? unicode.replace(/\s/g, '-').toUpperCase() : undefined;
+        unicode = unicode.replace(/\s200D/g, '').replace(/\s/g, '-').toUpperCase();
+        return {type: 'emoji', name: dataMatch[2].trim(), unicode: unicode, original: originalUnicode };
     }
     const subgroupRegex = /^#\s+subgroup:\s+(.+)$/i;
     const subgroupMatch = text.match(subgroupRegex);
@@ -113,6 +115,39 @@ const toEmoji = (unicode: string): string => {
         }).join('');
     }
     return String.fromCodePoint(parseInt(unicode, 16));
+};
+
+/**
+ * Convert the unicode text to Unicode
+ *
+ * @param unicodeText - The text of the Unicode
+ *
+ * @returns The Unicode formatted unicode
+ */
+const toUnicode = (unicodeText: string): string => {
+    if (unicodeText.includes('-')) {
+        const codes = unicodeText.split('-');
+        return codes.map((u) => {
+            return ` U+${u}`;
+        }).join('').trim();
+    }
+    return `U+${unicodeText}`;
+};
+
+/**
+ * Convert the number to icon
+ *
+ * @param num - The number text
+ *
+ * @returns The shortcodes of the number icon
+ */
+const numberIcon = (num: number | string): string => {
+    const mapping = ['zero','one','two','three','four','five','six','seven','eight','nine'];
+    let result = '';
+    for (const n of num.toString()) {
+        result += `:${mapping[parseInt(n)]}:`;
+    }
+    return result;
 };
 
 /**
@@ -177,4 +212,4 @@ const timeNow = (): string => {
 };
 
 
-export {getConfig, get, base, parse, title, toEmoji, anchor, writeFile, log, timeNow};
+export {getConfig, get, base, parse, title, toEmoji, toUnicode, numberIcon, anchor, writeFile, log, timeNow};
