@@ -1,5 +1,8 @@
 # Changelog
 
+### Version 1.0.3b
+- Quick fix minor bug
+
 ### Version 1.0.3
 - Add GitHub emoji counter
 - Add original Unicode

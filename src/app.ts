@@ -1,6 +1,6 @@
 /**
  * GitHub Emoji Icon List Markdown Generator
- * - Version: 1.0.3
+ * - Version: 1.0.3b
  * - Developer: NXU (GitHub: @jasonfoknxu)
  * - https://github.com/jasonfoknxu/github-emoji-icon-list
  */
@@ -178,7 +178,7 @@ import * as Utils from './utilities';
     markdown = tableOfContents + '\n\n' + markdown;
 
     // icon divider
-    markdown = ':red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle: :purple_circle: :brown_circle: :black_circle: :white_circle: :red_square: :orange_square: :yellow_square: :green_square: :large_blue_square: :purple_square: :brown_square: :black_large_square: :white_large_square: \n\n' + markdown;
+    markdown = ':red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle: :purple_circle: :brown_circle: :black_circle: :white_circle: :red_square: :orange_square: :yellow_square: :green_square: :blue_square: :purple_square: :brown_square: :black_large_square: :white_large_square: \n\n' + markdown;
 
     // Add GitHub Actions badge (Auto Update)
     markdown = `[![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml) :robot: Auto update by GitHub Actions every week.\n\n` + markdown;
