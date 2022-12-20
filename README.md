@@ -2778,3 +2778,6 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 
 
 [:top: Back to Top](#github-emoji-icon-list)
+
+
+:heart: :orange_heart: :yellow_heart: :green_heart: :blue_heart: :purple_heart: :brown_heart: :black_heart: :white_heart:
