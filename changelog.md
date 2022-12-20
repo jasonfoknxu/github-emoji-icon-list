@@ -1,5 +1,9 @@
 # Changelog
 
+### Version 1.0.4
+- Fix GitHub Actions workflow `auto-update` (failed when no update)
+- Add credits
+
 ### Version 1.0.3b
 - Quick fix minor bug
 

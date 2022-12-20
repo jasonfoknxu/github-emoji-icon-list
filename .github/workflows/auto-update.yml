@@ -18,6 +18,7 @@ jobs:
       AUTO_COMMIT_MESSAGE: Auto Update by GitHub Actions
       AUTO_COMMIT_AUTHOR: github-actions[bot]
       AUTO_COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
+      AUTO_COMMIT_NO_UPDATE: No update, nothing to commit
     steps:
       - uses: actions/checkout@v3
 
@@ -36,5 +37,5 @@ jobs:
           git config --global user.name "${{ env.AUTO_COMMIT_AUTHOR }}"
           git config --global user.email "${{ env.AUTO_COMMIT_EMAIL }}"
           git add README.md github-emoji.json
-          git commit -m "${{ env.AUTO_COMMIT_MESSAGE }}"
+          git commit -m "${{ env.AUTO_COMMIT_MESSAGE }}" || echo "${{ env.AUTO_COMMIT_NO_UPDATE }}"
           git push

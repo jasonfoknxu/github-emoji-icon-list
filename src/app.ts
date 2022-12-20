@@ -1,6 +1,6 @@
 /**
  * GitHub Emoji Icon List Markdown Generator
- * - Version: 1.0.3b
+ * - Version: 1.0.4
  * - Developer: NXU (GitHub: @jasonfoknxu)
  * - https://github.com/jasonfoknxu/github-emoji-icon-list
  */
@@ -173,6 +173,10 @@ import * as Utils from './utilities';
     markdown += `\n\n`;
     markdown += Utils.anchor(':top: Back to Top', 'github-emoji-icon-list');
     markdown += `\n`;
+
+    // end
+    markdown += `\n\n`;
+    markdown += `:heart: :orange_heart: :yellow_heart: :green_heart: :blue_heart: :purple_heart: :brown_heart: :black_heart: :white_heart:`;
 
     // Add Table of Contents
     markdown = tableOfContents + '\n\n' + markdown;
