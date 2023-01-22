@@ -4,7 +4,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 
 > :information_source: *The emoji may be displayed in different result on various system or browser*
 
-:bar_chart: Number of GitHub Emoji Icon: :one::eight::seven::four:
+:bar_chart: Number of GitHub Emoji Icon: :one::eight::seven::six:
 
 [:floppy_disk: JSON version](https://github.com/jasonfoknxu/github-emoji-icon-list/blob/main/github-emoji.json) is available. Feel free to use it for further development.
 
@@ -2760,9 +2760,11 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:basecamp:|`:basecamp:`|
 |:basecampy:|`:basecampy:`|
 |:bowtie:|`:bowtie:`|
+|:dependabot:|`:dependabot:`|
 |:electron:|`:electron:`|
 |:feelsgood:|`:feelsgood:`|
 |:finnadie:|`:finnadie:`|
+|:fishsticks:|`:fishsticks:`|
 |:goberserk:|`:goberserk:`|
 |:godmode:|`:godmode:`|
 |:hurtrealbad:|`:hurtrealbad:`|
