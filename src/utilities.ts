@@ -14,7 +14,7 @@ import path from 'path';
  *
  * @returns The parsed config from the JSON-formatted config file
  */
-const getConfig = async (filename: string = 'config', format: string = 'json'): Promise<IConfig> => {
+const getConfig = async (filename: string = 'config', format: string = 'json'): Promise<Config> => {
     try {
         const readConfig: string = await fs.readFile(path.join(__dirname, '../', `${filename}.${format}`), 'utf8');
         return JSON.parse(readConfig);
@@ -58,7 +58,7 @@ const base = (url: string, extension: string = '.png'): string => {
  *
  * @returns The parsed result of the line of Unicode Emoji text
  */
-const parse = (text: string): IUnicode | null => {
+const parse = (text: string): Unicode | null => {
     // Format: {code points}; {status} # {emoji} E{emoji version} {name}
     const dataRegex = /^(.+)\s+;.+#.+E[\d.]+\s+(.+)$/i;
     const dataMatch = text.match(dataRegex);

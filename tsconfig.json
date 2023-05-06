@@ -11,8 +11,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": [
-    "src/*",
-    "src/*/*"
-  ]
+  "include": ["src/*", "src/*/*"]
 }

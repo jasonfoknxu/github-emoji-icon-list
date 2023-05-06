@@ -4,3 +4,6 @@ node_modules/
 # IDE config
 .vscode/
 .idea/
+
+# Assets
+banner.psd

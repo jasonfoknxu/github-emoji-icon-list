@@ -1,6 +1,6 @@
 /**
  * GitHub Emoji Icon List Markdown Generator
- * - Version: 1.0.4
+ * - Version: 1.0.5
  * - Developer: NXU (GitHub: @jasonfoknxu)
  * - https://github.com/jasonfoknxu/github-emoji-icon-list
  */
@@ -9,9 +9,9 @@ import * as Utils from './utilities';
 
 (async () => {
     // Get the config from config file
-    const config: IConfig = await Utils.getConfig();
+    const config: Config = await Utils.getConfig();
     // Get the GitHub Emoji Icon List
-    const githubEmojisData: IGithubEmoji = await Utils.get(config.GitHub_Emojis_List);
+    const githubEmojisData: GithubEmoji = await Utils.get(config.GitHub_Emojis_List);
     // Get the Unicode Emoji Data
     const unicodeEmojisData = await Utils.get(config.Unicode_Emojis_Data);
 
@@ -25,15 +25,16 @@ import * as Utils from './utilities';
     let numberOfEmoji = 0;
 
     // Handle the GitHub emoji from the GitHub Emoji Icon List
-    let githubEmojis: IGithubEmoji = {};
+    let githubEmojis: GithubEmoji = {}, githubEmojiImage: GithubEmoji = {};
     for (const [shortcode, url] of Object.entries(githubEmojisData)) {
         githubEmojis[shortcode] = Utils.base(url).toUpperCase();
+        githubEmojiImage[shortcode] = url;
         numberOfEmoji++;
     }
 
     // Process the Unicode emoji data from the Unicode Emoji Data text
     const unicodeEmojiLines = unicodeEmojisData.split(/\r?\n/);
-    let unicodeEmojis: IUnicodeEmojiData = {};
+    let unicodeEmojis: UnicodeEmojiData = {};
     let group = '', subgroup = '', emojiGroups = [], emojiSubgroups = [], emojiCount = 0;
     for (let i = 0; i < unicodeEmojiLines.length; i++) {
         const parseResult = Utils.parse(unicodeEmojiLines[i]);
@@ -57,11 +58,11 @@ import * as Utils from './utilities';
     }
 
     // Group the GitHub emoji with the Unicode emoji information
-    let emojis: IEmojiGroup = {}, customGroup: ICustomEmoji[] = [];
+    let emojis: EmojiGroup = {}, customGroup: CustomEmoji[] = [];
     for (const [shortcode, unicode] of Object.entries(githubEmojis)) {
         const emojiData = unicodeEmojis[unicode];
         if (!emojiData || emojiData.group === '') {
-            customGroup.push({unicode: unicode, shortcode: shortcode});
+            customGroup.push({ unicode: unicode, shortcode: shortcode });
         } else if (emojiData.group !== '') {
             if (!emojis[emojiData.group]) {
                 emojis[emojiData.group] = {};
@@ -70,7 +71,7 @@ import * as Utils from './utilities';
                 if (!emojis[emojiData.group][emojiData.subgroup]) {
                     emojis[emojiData.group][emojiData.subgroup] = [];
                 }
-            const emojiToAdd = {unicode: unicode, shortcode: shortcode, name: emojiData.name, order: emojiData.order, origUnicode: emojiData.origUnicode };
+            const emojiToAdd = { unicode: unicode, shortcode: shortcode, name: emojiData.name, order: emojiData.order, origUnicode: emojiData.origUnicode };
             // Ordering the emoji within the subgroup
             const index = emojis[emojiData.group][emojiData.subgroup].findIndex((emoji) => {
                 return (emoji.order ?? 0) > emojiToAdd.order;
@@ -84,26 +85,27 @@ import * as Utils from './utilities';
     }
 
     // Export the emoji list to format the JSON
-    let exportEmoji: IEmojiGroup = {};
+    let exportEmoji: EmojiGroup = {};
     for (const group in emojis) {
         exportEmoji[group] = {};
         for (const subgroup in emojis[group]) {
             exportEmoji[group][Utils.title(subgroup)] = emojis[group][subgroup].map((e) => ({
                 unicode: Utils.toUnicode(e.origUnicode ?? e.unicode),
-                shortcode: `:${e.shortcode}:` ?? '',
+                shortcode: `:${e.shortcode}:`,
                 name: e.name,
-                emoji: Utils.toEmoji(e.origUnicode ?? e.unicode)
+                emoji: Utils.toEmoji(e.origUnicode ?? e.unicode),
+                image: Utils.base(githubEmojiImage[e.shortcode], '')
             }));
         }
     }
 
     // Write to a JSON file
-    await Utils.writeFile('github-emoji.json',JSON.stringify(exportEmoji));
+    await Utils.writeFile(config.Json_File_Name ?? 'github-emoji.json', JSON.stringify(exportEmoji));
 
     // Sort the emoji from group and subgroup
-    let organizedEmoji: EmojiGroup[] = [];
+    let organizedEmoji: EmojiGroupData[] = [];
     for (const group in emojis) {
-        let sortedEmojiSubgroups: EmojiSubgroup[] = [];
+        let sortedEmojiSubgroups: EmojiSubgroupData[] = [];
         for (const subgroup in emojis[group]) {
             sortedEmojiSubgroups.push([emojiSubgroups.indexOf(subgroup), subgroup, emojis[group][subgroup]]);
         }
@@ -135,13 +137,15 @@ import * as Utils from './utilities';
         for (let j = 0; j < subgroups.length; j++) {
             const subgroupTitle = subgroups[j][1];
             markdown += `### ${Utils.title(subgroupTitle)}\n\n`;
-            markdown += `|Emoji|Shortcode|Description|\n`;
-            markdown += `|:---:|:-----:|:---|\n`;
+            markdown += `|Emoji|Image|Shortcode|Description|\n`;
+            markdown += `|:---:|:---:|:-----:|:---|\n`;
 
             const emojiInGroup = subgroups[j][2];
             for (let k = 0; k < emojiInGroup.length; k++) {
                 const emoji = emojiInGroup[k];
-                markdown += `|:${emoji.shortcode}:|\`:${emoji.shortcode}:\`|${emoji.name}|\n`;
+                // Image Markdown: ![${emoji.name}](${githubEmojiImage[emoji.shortcode]})
+                // Use HTML instead, because we need to resize the image 
+                markdown += `|:${emoji.shortcode}:|<img src="${githubEmojiImage[emoji.shortcode]}" alt="${emoji.name}" style="width:20px" />|\`:${emoji.shortcode}:\`|${emoji.name}|\n`;
             }
             markdown += `\n\n`;
             markdown += Utils.anchor(':top: Back to Top', 'github-emoji-icon-list');
@@ -181,17 +185,20 @@ import * as Utils from './utilities';
     // Add Table of Contents
     markdown = tableOfContents + '\n\n' + markdown;
 
-    // icon divider
-    markdown = ':red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle: :purple_circle: :brown_circle: :black_circle: :white_circle: :red_square: :orange_square: :yellow_square: :green_square: :blue_square: :purple_square: :brown_square: :black_large_square: :white_large_square: \n\n' + markdown;
+    // Square icon divider
+    markdown = ':red_square: :orange_square: :yellow_square: :green_square: :blue_square: :purple_square: :brown_square: :black_large_square: :white_large_square: \n\n' + markdown;
 
     // Add GitHub Actions badge (Auto Update)
-    markdown = `[![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml) :robot: Auto update by GitHub Actions every week.\n\n` + markdown;
+    markdown = `[![Auto Update by GitHub Actions](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml/badge.svg)](https://github.com/jasonfoknxu/github-emoji-icon-list/actions/workflows/auto-update.yml)\n\n :robot: New icon checking & Auto update by GitHub Actions everyday.\n\n` + markdown;
 
     // Add the Json version info
     markdown = `[:floppy_disk: JSON version](https://github.com/jasonfoknxu/github-emoji-icon-list/blob/main/github-emoji.json) is available. Feel free to use it for further development.\n\n` + markdown;
 
     // Add the Json version info
     markdown = `:bar_chart: Number of GitHub Emoji Icon: ${Utils.numberIcon(numberOfEmoji)}\n\n` + markdown;
+
+    // Circle icon divider
+    markdown = ':red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle: :purple_circle: :brown_circle: :black_circle: :white_circle: \n\n' + markdown;
 
     // Introduction
     markdown = `This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The list is automatically generated from [:octocat: GitHub Emoji API](${config.GitHub_Emojis_List}) with the information from [Unicode Emoji data file](${config.Unicode_Emojis_Data}).\n\n> :information_source: *The emoji may be displayed in different result on various system or browser*\n\n` + markdown;

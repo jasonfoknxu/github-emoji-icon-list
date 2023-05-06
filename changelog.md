@@ -1,5 +1,11 @@
 # Changelog
 
+### Version 1.0.5
+- Configurable JSON file name
+- Optimize Interface naming
+- Add GitHub Image
+- Change update interval to everyday
+
 ### Version 1.0.4
 - Fix GitHub Actions workflow `auto-update` (failed when no update)
 - Add credits

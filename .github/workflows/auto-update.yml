@@ -10,7 +10,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: '0 0 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,7 +31,7 @@ jobs:
       - name: Generate the GitHub Emoji Icon List Markdown
         run: yarn start
 
-      # Commit and push the README.md
+      # Commit and push the README.md and Json file
       - name: Update the README.md (Commit and Push)
         run: |
           git config --global user.name "${{ env.AUTO_COMMIT_AUTHOR }}"
