@@ -1,5 +1,14 @@
 # Changelog
 
+![GitHub Emoji Icon List](banner.jpg)
+
+### Version 1.1.0
+- Improve error handling
+- Update GitHub Actions workflow
+- Fix improper tsconfig
+- Update deps: `@types/node`, `typescript`
+- Update `Unicode_Emojis_Data` config
+
 ### Version 1.0.5
 - Configurable JSON file name
 - Optimize Interface naming

@@ -2,7 +2,7 @@
  * Utilities of GitHub Emoji Icon List Markdown Generator
  */
 
-import {promises as fs} from 'fs';
+import { promises as fs } from 'fs';
 import axios from 'axios';
 import path from 'path';
 
@@ -14,26 +14,38 @@ import path from 'path';
  *
  * @returns The parsed config from the JSON-formatted config file
  */
-const getConfig = async (filename: string = 'config', format: string = 'json'): Promise<Config> => {
+const getConfig = async (filename: string = 'config', format: string = 'json'): Promise<Config | null> => {
     try {
         const readConfig: string = await fs.readFile(path.join(__dirname, '../', `${filename}.${format}`), 'utf8');
+        if (!readConfig) {
+            return null;
+        }
         return JSON.parse(readConfig);
     } catch (err) {
         log('Failed to read the config file.', 'e');
-        console.log(err);
-        process.exit();
+        console.error(err);
+        return null;
     }
 };
 
 /**
- * Perform a HTTP/HTTPS get request
+ * Perform a HTTP/HTTPS GET request
  *
  * @param url - The URL of the request
  *
  * @returns The responsive result of the request
  */
 const get = async (url: string) => {
-    return (await axios.get(url)).data ?? null;
+    try {
+        const req = await axios.get(url);
+        if (!req) {
+          return null;
+        }
+        return req.data;
+    } catch (err) {
+        log(`Failed to make a GET request: ${url}`, 'e');
+        return null;
+    }
 };
 
 /**

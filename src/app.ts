@@ -9,7 +9,13 @@ import * as Utils from './utilities';
 
 (async () => {
     // Get the config from config file
-    const config: Config = await Utils.getConfig();
+    const config: Config | null = await Utils.getConfig();
+
+    if (!config) {
+        Utils.log('Failed to get config file.', 'e');
+        return;
+    }
+
     // Get the GitHub Emoji Icon List
     const githubEmojisData: GithubEmoji = await Utils.get(config.GitHub_Emojis_List);
     // Get the Unicode Emoji Data
@@ -18,7 +24,7 @@ import * as Utils from './utilities';
     // Stop if no GitHub emoji list or Unicode data
     if (!githubEmojisData || !unicodeEmojisData) {
         Utils.log('Failed to get the GitHub Emoji List or Unicode Emoji Data.', 'e');
-        process.exit(1);
+        return;
     }
 
     // Count number of GitHub emoji
