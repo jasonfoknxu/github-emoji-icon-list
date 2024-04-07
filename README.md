@@ -1,6 +1,6 @@
 # GitHub Emoji Icon List
 
-This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The list is automatically generated from [:octocat: GitHub Emoji API](https://api.github.com/emojis) with the information from [Unicode Emoji data file](https://unicode.org/Public/emoji/15.0/emoji-test.txt).
+This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The list is automatically generated from [:octocat: GitHub Emoji API](https://api.github.com/emojis) with the information from [Unicode Emoji data file](https://unicode.org/Public/emoji/15.1/emoji-test.txt).
 
 > :information_source: *The emoji may be displayed in different result on various system or browser*
 
@@ -836,7 +836,6 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:couple_with_heart_woman_man:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-2764-1f468.png?v8" alt="couple with heart: woman, man" style="width:20px" />|`:couple_with_heart_woman_man:`|couple with heart: woman, man|
 |:couple_with_heart_man_man:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-2764-1f468.png?v8" alt="couple with heart: man, man" style="width:20px" />|`:couple_with_heart_man_man:`|couple with heart: man, man|
 |:couple_with_heart_woman_woman:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-2764-1f469.png?v8" alt="couple with heart: woman, woman" style="width:20px" />|`:couple_with_heart_woman_woman:`|couple with heart: woman, woman|
-|:family:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f46a.png?v8" alt="family" style="width:20px" />|`:family:`|family|
 |:family_man_woman_boy:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f469-1f466.png?v8" alt="family: man, woman, boy" style="width:20px" />|`:family_man_woman_boy:`|family: man, woman, boy|
 |:family_man_woman_girl:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f469-1f467.png?v8" alt="family: man, woman, girl" style="width:20px" />|`:family_man_woman_girl:`|family: man, woman, girl|
 |:family_man_woman_girl_boy:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f469-1f467-1f466.png?v8" alt="family: man, woman, girl, boy" style="width:20px" />|`:family_man_woman_girl_boy:`|family: man, woman, girl, boy|
@@ -874,6 +873,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:bust_in_silhouette:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f464.png?v8" alt="bust in silhouette" style="width:20px" />|`:bust_in_silhouette:`|bust in silhouette|
 |:busts_in_silhouette:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f465.png?v8" alt="busts in silhouette" style="width:20px" />|`:busts_in_silhouette:`|busts in silhouette|
 |:people_hugging:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fac2.png?v8" alt="people hugging" style="width:20px" />|`:people_hugging:`|people hugging|
+|:family:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f46a.png?v8" alt="family" style="width:20px" />|`:family:`|family|
 |:footprints:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f463.png?v8" alt="footprints" style="width:20px" />|`:footprints:`|footprints|
 
 
@@ -2714,7 +2714,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:turkmenistan:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f2.png?v8" alt="flag: Turkmenistan" style="width:20px" />|`:turkmenistan:`|flag: Turkmenistan|
 |:tunisia:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f3.png?v8" alt="flag: Tunisia" style="width:20px" />|`:tunisia:`|flag: Tunisia|
 |:tonga:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f4.png?v8" alt="flag: Tonga" style="width:20px" />|`:tonga:`|flag: Tonga|
-|:tr:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png?v8" alt="flag: Turkey" style="width:20px" />|`:tr:`|flag: Turkey|
+|:tr:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f7.png?v8" alt="flag: Türkiye" style="width:20px" />|`:tr:`|flag: Türkiye|
 |:trinidad_tobago:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1f9.png?v8" alt="flag: Trinidad & Tobago" style="width:20px" />|`:trinidad_tobago:`|flag: Trinidad & Tobago|
 |:tuvalu:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1fb.png?v8" alt="flag: Tuvalu" style="width:20px" />|`:tuvalu:`|flag: Tuvalu|
 |:taiwan:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f9-1f1fc.png?v8" alt="flag: Taiwan" style="width:20px" />|`:taiwan:`|flag: Taiwan|
