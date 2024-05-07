@@ -6,7 +6,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 
 :red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle: :purple_circle: :brown_circle: :black_circle: :white_circle: 
 
-:bar_chart: Number of GitHub Emoji Icon: :one::eight::seven::seven:
+:bar_chart: Number of GitHub Emoji Icon: :one::nine::three::five:
 
 [:floppy_disk: JSON version](https://github.com/jasonfoknxu/github-emoji-icon-list/blob/main/github-emoji.json) is available. Feel free to use it for further development.
 
@@ -108,6 +108,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:joy:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8" alt="face with tears of joy" style="width:20px" />|`:joy:`|face with tears of joy|
 |:slightly_smiling_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f642.png?v8" alt="slightly smiling face" style="width:20px" />|`:slightly_smiling_face:`|slightly smiling face|
 |:upside_down_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f643.png?v8" alt="upside-down face" style="width:20px" />|`:upside_down_face:`|upside-down face|
+|:melting_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae0.png?v8" alt="melting face" style="width:20px" />|`:melting_face:`|melting face|
 |:wink:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png?v8" alt="winking face" style="width:20px" />|`:wink:`|winking face|
 |:blush:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60a.png?v8" alt="smiling face with smiling eyes" style="width:20px" />|`:blush:`|smiling face with smiling eyes|
 |:innocent:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f607.png?v8" alt="smiling face with halo" style="width:20px" />|`:innocent:`|smiling face with halo|
@@ -152,8 +153,11 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:---:|:---:|:-----:|:---|
 |:hugs:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f917.png?v8" alt="smiling face with open hands" style="width:20px" />|`:hugs:`|smiling face with open hands|
 |:hand_over_mouth:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f92d.png?v8" alt="face with hand over mouth" style="width:20px" />|`:hand_over_mouth:`|face with hand over mouth|
+|:face_with_open_eyes_and_hand_over_mouth:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae2.png?v8" alt="face with open eyes and hand over mouth" style="width:20px" />|`:face_with_open_eyes_and_hand_over_mouth:`|face with open eyes and hand over mouth|
+|:face_with_peeking_eye:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae3.png?v8" alt="face with peeking eye" style="width:20px" />|`:face_with_peeking_eye:`|face with peeking eye|
 |:shushing_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f92b.png?v8" alt="shushing face" style="width:20px" />|`:shushing_face:`|shushing face|
 |:thinking:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png?v8" alt="thinking face" style="width:20px" />|`:thinking:`|thinking face|
+|:saluting_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae1.png?v8" alt="saluting face" style="width:20px" />|`:saluting_face:`|saluting face|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -167,6 +171,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:neutral_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f610.png?v8" alt="neutral face" style="width:20px" />|`:neutral_face:`|neutral face|
 |:expressionless:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f611.png?v8" alt="expressionless face" style="width:20px" />|`:expressionless:`|expressionless face|
 |:no_mouth:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f636.png?v8" alt="face without mouth" style="width:20px" />|`:no_mouth:`|face without mouth|
+|:dotted_line_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae5.png?v8" alt="dotted line face" style="width:20px" />|`:dotted_line_face:`|dotted line face|
 |:face_in_clouds:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f636-1f32b.png?v8" alt="face in clouds" style="width:20px" />|`:face_in_clouds:`|face in clouds|
 |:smirk:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" alt="smirking face" style="width:20px" />|`:smirk:`|smirking face|
 |:unamused:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f612.png?v8" alt="unamused face" style="width:20px" />|`:unamused:`|unamused face|
@@ -174,6 +179,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:grimacing:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62c.png?v8" alt="grimacing face" style="width:20px" />|`:grimacing:`|grimacing face|
 |:face_exhaling:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e-1f4a8.png?v8" alt="face exhaling" style="width:20px" />|`:face_exhaling:`|face exhaling|
 |:lying_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f925.png?v8" alt="lying face" style="width:20px" />|`:lying_face:`|lying face|
+|:shaking_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae8.png?v8" alt="shaking face" style="width:20px" />|`:shaking_face:`|shaking face|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -238,6 +244,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |Emoji|Image|Shortcode|Description|
 |:---:|:---:|:-----:|:---|
 |:confused:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f615.png?v8" alt="confused face" style="width:20px" />|`:confused:`|confused face|
+|:face_with_diagonal_mouth:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae4.png?v8" alt="face with diagonal mouth" style="width:20px" />|`:face_with_diagonal_mouth:`|face with diagonal mouth|
 |:worried:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f61f.png?v8" alt="worried face" style="width:20px" />|`:worried:`|worried face|
 |:slightly_frowning_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f641.png?v8" alt="slightly frowning face" style="width:20px" />|`:slightly_frowning_face:`|slightly frowning face|
 |:frowning_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2639.png?v8" alt="frowning face" style="width:20px" />|`:frowning_face:`|frowning face|
@@ -246,6 +253,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:astonished:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f632.png?v8" alt="astonished face" style="width:20px" />|`:astonished:`|astonished face|
 |:flushed:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f633.png?v8" alt="flushed face" style="width:20px" />|`:flushed:`|flushed face|
 |:pleading_face:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f97a.png?v8" alt="pleading face" style="width:20px" />|`:pleading_face:`|pleading face|
+|:face_holding_back_tears:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f979.png?v8" alt="face holding back tears" style="width:20px" />|`:face_holding_back_tears:`|face holding back tears|
 |:frowning:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f626.png?v8" alt="frowning face with open mouth" style="width:20px" />|`:frowning:`|frowning face with open mouth|
 |:anguished:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f627.png?v8" alt="anguished face" style="width:20px" />|`:anguished:`|anguished face|
 |:fearful:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f628.png?v8" alt="fearful face" style="width:20px" />|`:fearful:`|fearful face|
@@ -346,13 +354,16 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:heart_on_fire:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2764-1f525.png?v8" alt="heart on fire" style="width:20px" />|`:heart_on_fire:`|heart on fire|
 |:mending_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2764-1fa79.png?v8" alt="mending heart" style="width:20px" />|`:mending_heart:`|mending heart|
 |:heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png?v8" alt="red heart" style="width:20px" />|`:heart:`|red heart|
+|:pink_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa77.png?v8" alt="pink heart" style="width:20px" />|`:pink_heart:`|pink heart|
 |:orange_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9e1.png?v8" alt="orange heart" style="width:20px" />|`:orange_heart:`|orange heart|
 |:yellow_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f49b.png?v8" alt="yellow heart" style="width:20px" />|`:yellow_heart:`|yellow heart|
 |:green_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f49a.png?v8" alt="green heart" style="width:20px" />|`:green_heart:`|green heart|
 |:blue_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f499.png?v8" alt="blue heart" style="width:20px" />|`:blue_heart:`|blue heart|
+|:light_blue_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa75.png?v8" alt="light blue heart" style="width:20px" />|`:light_blue_heart:`|light blue heart|
 |:purple_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f49c.png?v8" alt="purple heart" style="width:20px" />|`:purple_heart:`|purple heart|
 |:brown_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f90e.png?v8" alt="brown heart" style="width:20px" />|`:brown_heart:`|brown heart|
 |:black_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f5a4.png?v8" alt="black heart" style="width:20px" />|`:black_heart:`|black heart|
+|:grey_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa76.png?v8" alt="grey heart" style="width:20px" />|`:grey_heart:`|grey heart|
 |:white_heart:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f90d.png?v8" alt="white heart" style="width:20px" />|`:white_heart:`|white heart|
 
 
@@ -393,6 +404,12 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/270b.png?v8" alt="raised hand" style="width:20px" />|`:hand:`|raised hand|
 |:raised_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/270b.png?v8" alt="raised hand" style="width:20px" />|`:raised_hand:`|raised hand|
 |:vulcan_salute:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f596.png?v8" alt="vulcan salute" style="width:20px" />|`:vulcan_salute:`|vulcan salute|
+|:rightwards_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf1.png?v8" alt="rightwards hand" style="width:20px" />|`:rightwards_hand:`|rightwards hand|
+|:leftwards_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf2.png?v8" alt="leftwards hand" style="width:20px" />|`:leftwards_hand:`|leftwards hand|
+|:palm_down_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf3.png?v8" alt="palm down hand" style="width:20px" />|`:palm_down_hand:`|palm down hand|
+|:palm_up_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf4.png?v8" alt="palm up hand" style="width:20px" />|`:palm_up_hand:`|palm up hand|
+|:leftwards_pushing_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf7.png?v8" alt="leftwards pushing hand" style="width:20px" />|`:leftwards_pushing_hand:`|leftwards pushing hand|
+|:rightwards_pushing_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf8.png?v8" alt="rightwards pushing hand" style="width:20px" />|`:rightwards_pushing_hand:`|rightwards pushing hand|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -406,6 +423,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:pinching_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f90f.png?v8" alt="pinching hand" style="width:20px" />|`:pinching_hand:`|pinching hand|
 |:v:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/270c.png?v8" alt="victory hand" style="width:20px" />|`:v:`|victory hand|
 |:crossed_fingers:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f91e.png?v8" alt="crossed fingers" style="width:20px" />|`:crossed_fingers:`|crossed fingers|
+|:hand_with_index_finger_and_thumb_crossed:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf0.png?v8" alt="hand with index finger and thumb crossed" style="width:20px" />|`:hand_with_index_finger_and_thumb_crossed:`|hand with index finger and thumb crossed|
 |:love_you_gesture:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f91f.png?v8" alt="love-you gesture" style="width:20px" />|`:love_you_gesture:`|love-you gesture|
 |:metal:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f918.png?v8" alt="sign of the horns" style="width:20px" />|`:metal:`|sign of the horns|
 |:call_me_hand:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f919.png?v8" alt="call me hand" style="width:20px" />|`:call_me_hand:`|call me hand|
@@ -424,6 +442,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:middle_finger:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f595.png?v8" alt="middle finger" style="width:20px" />|`:middle_finger:`|middle finger|
 |:point_down:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png?v8" alt="backhand index pointing down" style="width:20px" />|`:point_down:`|backhand index pointing down|
 |:point_up:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png?v8" alt="index pointing up" style="width:20px" />|`:point_up:`|index pointing up|
+|:index_pointing_at_the_viewer:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf5.png?v8" alt="index pointing at the viewer" style="width:20px" />|`:index_pointing_at_the_viewer:`|index pointing at the viewer|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -453,6 +472,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:---:|:---:|:-----:|:---|
 |:clap:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f44f.png?v8" alt="clapping hands" style="width:20px" />|`:clap:`|clapping hands|
 |:raised_hands:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f64c.png?v8" alt="raising hands" style="width:20px" />|`:raised_hands:`|raising hands|
+|:heart_hands:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faf6.png?v8" alt="heart hands" style="width:20px" />|`:heart_hands:`|heart hands|
 |:open_hands:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f450.png?v8" alt="open hands" style="width:20px" />|`:open_hands:`|open hands|
 |:palms_up_together:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f932.png?v8" alt="palms up together" style="width:20px" />|`:palms_up_together:`|palms up together|
 |:handshake:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f91d.png?v8" alt="handshake" style="width:20px" />|`:handshake:`|handshake|
@@ -493,6 +513,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:eye:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f441.png?v8" alt="eye" style="width:20px" />|`:eye:`|eye|
 |:tongue:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f445.png?v8" alt="tongue" style="width:20px" />|`:tongue:`|tongue|
 |:lips:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f444.png?v8" alt="mouth" style="width:20px" />|`:lips:`|mouth|
+|:biting_lip:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae6.png?v8" alt="biting lip" style="width:20px" />|`:biting_lip:`|biting lip|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -643,6 +664,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:construction_worker:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f477.png?v8" alt="construction worker" style="width:20px" />|`:construction_worker:`|construction worker|
 |:construction_worker_man:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f477-2642.png?v8" alt="man construction worker" style="width:20px" />|`:construction_worker_man:`|man construction worker|
 |:construction_worker_woman:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f477-2640.png?v8" alt="woman construction worker" style="width:20px" />|`:construction_worker_woman:`|woman construction worker|
+|:person_with_crown:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fac5.png?v8" alt="person with crown" style="width:20px" />|`:person_with_crown:`|person with crown|
 |:prince:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f934.png?v8" alt="prince" style="width:20px" />|`:prince:`|prince|
 |:princess:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f478.png?v8" alt="princess" style="width:20px" />|`:princess:`|princess|
 |:person_with_turban:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f473.png?v8" alt="person wearing turban" style="width:20px" />|`:person_with_turban:`|person wearing turban|
@@ -658,6 +680,8 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:bride_with_veil:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f470-2640.png?v8" alt="woman with veil" style="width:20px" />|`:bride_with_veil:`|woman with veil|
 |:woman_with_veil:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f470-2640.png?v8" alt="woman with veil" style="width:20px" />|`:woman_with_veil:`|woman with veil|
 |:pregnant_woman:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f930.png?v8" alt="pregnant woman" style="width:20px" />|`:pregnant_woman:`|pregnant woman|
+|:pregnant_man:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fac3.png?v8" alt="pregnant man" style="width:20px" />|`:pregnant_man:`|pregnant man|
+|:pregnant_person:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fac4.png?v8" alt="pregnant person" style="width:20px" />|`:pregnant_person:`|pregnant person|
 |:breast_feeding:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f931.png?v8" alt="breast-feeding" style="width:20px" />|`:breast_feeding:`|breast-feeding|
 |:woman_feeding_baby:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f37c.png?v8" alt="woman feeding baby" style="width:20px" />|`:woman_feeding_baby:`|woman feeding baby|
 |:man_feeding_baby:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f37c.png?v8" alt="man feeding baby" style="width:20px" />|`:man_feeding_baby:`|man feeding baby|
@@ -701,6 +725,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:zombie:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9df.png?v8" alt="zombie" style="width:20px" />|`:zombie:`|zombie|
 |:zombie_man:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9df-2642.png?v8" alt="man zombie" style="width:20px" />|`:zombie_man:`|man zombie|
 |:zombie_woman:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9df-2640.png?v8" alt="woman zombie" style="width:20px" />|`:zombie_woman:`|woman zombie|
+|:troll:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9cc.png?v8" alt="troll" style="width:20px" />|`:troll:`|troll|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -905,6 +930,8 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:tiger2:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f405.png?v8" alt="tiger" style="width:20px" />|`:tiger2:`|tiger|
 |:leopard:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f406.png?v8" alt="leopard" style="width:20px" />|`:leopard:`|leopard|
 |:horse:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f434.png?v8" alt="horse face" style="width:20px" />|`:horse:`|horse face|
+|:moose:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1face.png?v8" alt="moose" style="width:20px" />|`:moose:`|moose|
+|:donkey:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1facf.png?v8" alt="donkey" style="width:20px" />|`:donkey:`|donkey|
 |:racehorse:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f40e.png?v8" alt="horse" style="width:20px" />|`:racehorse:`|horse|
 |:unicorn:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f984.png?v8" alt="unicorn" style="width:20px" />|`:unicorn:`|unicorn|
 |:zebra:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f993.png?v8" alt="zebra" style="width:20px" />|`:zebra:`|zebra|
@@ -976,6 +1003,9 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:flamingo:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9a9.png?v8" alt="flamingo" style="width:20px" />|`:flamingo:`|flamingo|
 |:peacock:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f99a.png?v8" alt="peacock" style="width:20px" />|`:peacock:`|peacock|
 |:parrot:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f99c.png?v8" alt="parrot" style="width:20px" />|`:parrot:`|parrot|
+|:wing:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fabd.png?v8" alt="wing" style="width:20px" />|`:wing:`|wing|
+|:black_bird:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f426-2b1b.png?v8" alt="black bird" style="width:20px" />|`:black_bird:`|black bird|
+|:goose:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fabf.png?v8" alt="goose" style="width:20px" />|`:goose:`|goose|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -1020,6 +1050,8 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:shark:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f988.png?v8" alt="shark" style="width:20px" />|`:shark:`|shark|
 |:octopus:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f419.png?v8" alt="octopus" style="width:20px" />|`:octopus:`|octopus|
 |:shell:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f41a.png?v8" alt="spiral shell" style="width:20px" />|`:shell:`|spiral shell|
+|:coral:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fab8.png?v8" alt="coral" style="width:20px" />|`:coral:`|coral|
+|:jellyfish:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fabc.png?v8" alt="jellyfish" style="width:20px" />|`:jellyfish:`|jellyfish|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -1056,6 +1088,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:bouquet:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f490.png?v8" alt="bouquet" style="width:20px" />|`:bouquet:`|bouquet|
 |:cherry_blossom:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f338.png?v8" alt="cherry blossom" style="width:20px" />|`:cherry_blossom:`|cherry blossom|
 |:white_flower:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ae.png?v8" alt="white flower" style="width:20px" />|`:white_flower:`|white flower|
+|:lotus:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fab7.png?v8" alt="lotus" style="width:20px" />|`:lotus:`|lotus|
 |:rosette:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3f5.png?v8" alt="rosette" style="width:20px" />|`:rosette:`|rosette|
 |:rose:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f339.png?v8" alt="rose" style="width:20px" />|`:rose:`|rose|
 |:wilted_flower:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f940.png?v8" alt="wilted flower" style="width:20px" />|`:wilted_flower:`|wilted flower|
@@ -1063,6 +1096,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:sunflower:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f33b.png?v8" alt="sunflower" style="width:20px" />|`:sunflower:`|sunflower|
 |:blossom:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f33c.png?v8" alt="blossom" style="width:20px" />|`:blossom:`|blossom|
 |:tulip:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f337.png?v8" alt="tulip" style="width:20px" />|`:tulip:`|tulip|
+|:hyacinth:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fabb.png?v8" alt="hyacinth" style="width:20px" />|`:hyacinth:`|hyacinth|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -1084,6 +1118,8 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:maple_leaf:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f341.png?v8" alt="maple leaf" style="width:20px" />|`:maple_leaf:`|maple leaf|
 |:fallen_leaf:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f342.png?v8" alt="fallen leaf" style="width:20px" />|`:fallen_leaf:`|fallen leaf|
 |:leaves:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f343.png?v8" alt="leaf fluttering in wind" style="width:20px" />|`:leaves:`|leaf fluttering in wind|
+|:empty_nest:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fab9.png?v8" alt="empty nest" style="width:20px" />|`:empty_nest:`|empty nest|
+|:nest_with_eggs:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faba.png?v8" alt="nest with eggs" style="width:20px" />|`:nest_with_eggs:`|nest with eggs|
 |:mushroom:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png?v8" alt="mushroom" style="width:20px" />|`:mushroom:`|mushroom|
 
 
@@ -1137,7 +1173,10 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:garlic:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9c4.png?v8" alt="garlic" style="width:20px" />|`:garlic:`|garlic|
 |:onion:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9c5.png?v8" alt="onion" style="width:20px" />|`:onion:`|onion|
 |:peanuts:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f95c.png?v8" alt="peanuts" style="width:20px" />|`:peanuts:`|peanuts|
+|:beans:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fad8.png?v8" alt="beans" style="width:20px" />|`:beans:`|beans|
 |:chestnut:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f330.png?v8" alt="chestnut" style="width:20px" />|`:chestnut:`|chestnut|
+|:ginger_root:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fada.png?v8" alt="ginger root" style="width:20px" />|`:ginger_root:`|ginger root|
+|:pea_pod:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fadb.png?v8" alt="pea pod" style="width:20px" />|`:pea_pod:`|pea pod|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -1262,6 +1301,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:beers:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f37b.png?v8" alt="clinking beer mugs" style="width:20px" />|`:beers:`|clinking beer mugs|
 |:clinking_glasses:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f942.png?v8" alt="clinking glasses" style="width:20px" />|`:clinking_glasses:`|clinking glasses|
 |:tumbler_glass:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f943.png?v8" alt="tumbler glass" style="width:20px" />|`:tumbler_glass:`|tumbler glass|
+|:pouring_liquid:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fad7.png?v8" alt="pouring liquid" style="width:20px" />|`:pouring_liquid:`|pouring liquid|
 |:cup_with_straw:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f964.png?v8" alt="cup with straw" style="width:20px" />|`:cup_with_straw:`|cup with straw|
 |:bubble_tea:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9cb.png?v8" alt="bubble tea" style="width:20px" />|`:bubble_tea:`|bubble tea|
 |:beverage_box:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9c3.png?v8" alt="beverage box" style="width:20px" />|`:beverage_box:`|beverage box|
@@ -1281,6 +1321,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:spoon:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f944.png?v8" alt="spoon" style="width:20px" />|`:spoon:`|spoon|
 |:hocho:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52a.png?v8" alt="kitchen knife" style="width:20px" />|`:hocho:`|kitchen knife|
 |:knife:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52a.png?v8" alt="kitchen knife" style="width:20px" />|`:knife:`|kitchen knife|
+|:jar:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fad9.png?v8" alt="jar" style="width:20px" />|`:jar:`|jar|
 |:amphora:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3fa.png?v8" alt="amphora" style="width:20px" />|`:amphora:`|amphora|
 
 
@@ -1385,6 +1426,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:bridge_at_night:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f309.png?v8" alt="bridge at night" style="width:20px" />|`:bridge_at_night:`|bridge at night|
 |:hotsprings:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2668.png?v8" alt="hot springs" style="width:20px" />|`:hotsprings:`|hot springs|
 |:carousel_horse:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a0.png?v8" alt="carousel horse" style="width:20px" />|`:carousel_horse:`|carousel horse|
+|:playground_slide:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6dd.png?v8" alt="playground slide" style="width:20px" />|`:playground_slide:`|playground slide|
 |:ferris_wheel:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a1.png?v8" alt="ferris wheel" style="width:20px" />|`:ferris_wheel:`|ferris wheel|
 |:roller_coaster:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a2.png?v8" alt="roller coaster" style="width:20px" />|`:roller_coaster:`|roller coaster|
 |:barber:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f488.png?v8" alt="barber pole" style="width:20px" />|`:barber:`|barber pole|
@@ -1442,6 +1484,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:railway_track:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e4.png?v8" alt="railway track" style="width:20px" />|`:railway_track:`|railway track|
 |:oil_drum:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e2.png?v8" alt="oil drum" style="width:20px" />|`:oil_drum:`|oil drum|
 |:fuelpump:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/26fd.png?v8" alt="fuel pump" style="width:20px" />|`:fuelpump:`|fuel pump|
+|:wheel:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6de.png?v8" alt="wheel" style="width:20px" />|`:wheel:`|wheel|
 |:rotating_light:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6a8.png?v8" alt="police car light" style="width:20px" />|`:rotating_light:`|police car light|
 |:traffic_light:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6a5.png?v8" alt="horizontal traffic light" style="width:20px" />|`:traffic_light:`|horizontal traffic light|
 |:vertical_traffic_light:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6a6.png?v8" alt="vertical traffic light" style="width:20px" />|`:vertical_traffic_light:`|vertical traffic light|
@@ -1456,6 +1499,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |Emoji|Image|Shortcode|Description|
 |:---:|:---:|:-----:|:---|
 |:anchor:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2693.png?v8" alt="anchor" style="width:20px" />|`:anchor:`|anchor|
+|:ring_buoy:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6df.png?v8" alt="ring buoy" style="width:20px" />|`:ring_buoy:`|ring buoy|
 |:boat:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/26f5.png?v8" alt="sailboat" style="width:20px" />|`:boat:`|sailboat|
 |:sailboat:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/26f5.png?v8" alt="sailboat" style="width:20px" />|`:sailboat:`|sailboat|
 |:canoe:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6f6.png?v8" alt="canoe" style="width:20px" />|`:canoe:`|canoe|
@@ -1692,6 +1736,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:jigsaw:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9e9.png?v8" alt="puzzle piece" style="width:20px" />|`:jigsaw:`|puzzle piece|
 |:teddy_bear:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9f8.png?v8" alt="teddy bear" style="width:20px" />|`:teddy_bear:`|teddy bear|
 |:pinata:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa85.png?v8" alt="piñata" style="width:20px" />|`:pinata:`|piñata|
+|:mirror_ball:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faa9.png?v8" alt="mirror ball" style="width:20px" />|`:mirror_ball:`|mirror ball|
 |:nesting_dolls:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa86.png?v8" alt="nesting dolls" style="width:20px" />|`:nesting_dolls:`|nesting dolls|
 |:spades:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2660.png?v8" alt="spade suit" style="width:20px" />|`:spades:`|spade suit|
 |:hearts:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2665.png?v8" alt="heart suit" style="width:20px" />|`:hearts:`|heart suit|
@@ -1747,6 +1792,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:shorts:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa73.png?v8" alt="shorts" style="width:20px" />|`:shorts:`|shorts|
 |:bikini:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f459.png?v8" alt="bikini" style="width:20px" />|`:bikini:`|bikini|
 |:womans_clothes:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f45a.png?v8" alt="woman’s clothes" style="width:20px" />|`:womans_clothes:`|woman’s clothes|
+|:folding_hand_fan:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faad.png?v8" alt="folding hand fan" style="width:20px" />|`:folding_hand_fan:`|folding hand fan|
 |:purse:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f45b.png?v8" alt="purse" style="width:20px" />|`:purse:`|purse|
 |:handbag:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f45c.png?v8" alt="handbag" style="width:20px" />|`:handbag:`|handbag|
 |:pouch:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f45d.png?v8" alt="clutch bag" style="width:20px" />|`:pouch:`|clutch bag|
@@ -1762,6 +1808,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:sandal:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f461.png?v8" alt="woman’s sandal" style="width:20px" />|`:sandal:`|woman’s sandal|
 |:ballet_shoes:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa70.png?v8" alt="ballet shoes" style="width:20px" />|`:ballet_shoes:`|ballet shoes|
 |:boot:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f462.png?v8" alt="woman’s boot" style="width:20px" />|`:boot:`|woman’s boot|
+|:hair_pick:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faae.png?v8" alt="hair pick" style="width:20px" />|`:hair_pick:`|hair pick|
 |:crown:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f451.png?v8" alt="crown" style="width:20px" />|`:crown:`|crown|
 |:womans_hat:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f452.png?v8" alt="woman’s hat" style="width:20px" />|`:womans_hat:`|woman’s hat|
 |:tophat:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a9.png?v8" alt="top hat" style="width:20px" />|`:tophat:`|top hat|
@@ -1824,6 +1871,8 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:banjo:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa95.png?v8" alt="banjo" style="width:20px" />|`:banjo:`|banjo|
 |:drum:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f941.png?v8" alt="drum" style="width:20px" />|`:drum:`|drum|
 |:long_drum:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa98.png?v8" alt="long drum" style="width:20px" />|`:long_drum:`|long drum|
+|:maracas:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa87.png?v8" alt="maracas" style="width:20px" />|`:maracas:`|maracas|
+|:flute:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa88.png?v8" alt="flute" style="width:20px" />|`:flute:`|flute|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -1848,6 +1897,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |Emoji|Image|Shortcode|Description|
 |:---:|:---:|:-----:|:---|
 |:battery:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f50b.png?v8" alt="battery" style="width:20px" />|`:battery:`|battery|
+|:low_battery:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faab.png?v8" alt="low battery" style="width:20px" />|`:low_battery:`|low battery|
 |:electric_plug:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png?v8" alt="electric plug" style="width:20px" />|`:electric_plug:`|electric plug|
 |:computer:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png?v8" alt="laptop" style="width:20px" />|`:computer:`|laptop|
 |:desktop_computer:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f5a5.png?v8" alt="desktop computer" style="width:20px" />|`:desktop_computer:`|desktop computer|
@@ -2072,7 +2122,9 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:drop_of_blood:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa78.png?v8" alt="drop of blood" style="width:20px" />|`:drop_of_blood:`|drop of blood|
 |:pill:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f48a.png?v8" alt="pill" style="width:20px" />|`:pill:`|pill|
 |:adhesive_bandage:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa79.png?v8" alt="adhesive bandage" style="width:20px" />|`:adhesive_bandage:`|adhesive bandage|
+|:crutch:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa7c.png?v8" alt="crutch" style="width:20px" />|`:crutch:`|crutch|
 |:stethoscope:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa7a.png?v8" alt="stethoscope" style="width:20px" />|`:stethoscope:`|stethoscope|
+|:x_ray:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fa7b.png?v8" alt="x-ray" style="width:20px" />|`:x_ray:`|x-ray|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -2101,6 +2153,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:roll_of_paper:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9fb.png?v8" alt="roll of paper" style="width:20px" />|`:roll_of_paper:`|roll of paper|
 |:bucket:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faa3.png?v8" alt="bucket" style="width:20px" />|`:bucket:`|bucket|
 |:soap:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9fc.png?v8" alt="soap" style="width:20px" />|`:soap:`|soap|
+|:bubbles:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1fae7.png?v8" alt="bubbles" style="width:20px" />|`:bubbles:`|bubbles|
 |:toothbrush:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faa5.png?v8" alt="toothbrush" style="width:20px" />|`:toothbrush:`|toothbrush|
 |:sponge:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9fd.png?v8" alt="sponge" style="width:20px" />|`:sponge:`|sponge|
 |:fire_extinguisher:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9ef.png?v8" alt="fire extinguisher" style="width:20px" />|`:fire_extinguisher:`|fire extinguisher|
@@ -2118,8 +2171,10 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:headstone:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faa6.png?v8" alt="headstone" style="width:20px" />|`:headstone:`|headstone|
 |:funeral_urn:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/26b1.png?v8" alt="funeral urn" style="width:20px" />|`:funeral_urn:`|funeral urn|
 |:nazar_amulet:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9ff.png?v8" alt="nazar amulet" style="width:20px" />|`:nazar_amulet:`|nazar amulet|
+|:hamsa:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faac.png?v8" alt="hamsa" style="width:20px" />|`:hamsa:`|hamsa|
 |:moyai:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f5ff.png?v8" alt="moai" style="width:20px" />|`:moyai:`|moai|
 |:placard:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faa7.png?v8" alt="placard" style="width:20px" />|`:placard:`|placard|
+|:identification_card:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faaa.png?v8" alt="identification card" style="width:20px" />|`:identification_card:`|identification card|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -2213,6 +2268,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:peace_symbol:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/262e.png?v8" alt="peace symbol" style="width:20px" />|`:peace_symbol:`|peace symbol|
 |:menorah:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f54e.png?v8" alt="menorah" style="width:20px" />|`:menorah:`|menorah|
 |:six_pointed_star:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52f.png?v8" alt="dotted six-pointed star" style="width:20px" />|`:six_pointed_star:`|dotted six-pointed star|
+|:khanda:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1faaf.png?v8" alt="khanda" style="width:20px" />|`:khanda:`|khanda|
 
 
 [:top: Back to Top](#github-emoji-icon-list)
@@ -2264,6 +2320,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:low_brightness:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f505.png?v8" alt="dim button" style="width:20px" />|`:low_brightness:`|dim button|
 |:high_brightness:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f506.png?v8" alt="bright button" style="width:20px" />|`:high_brightness:`|bright button|
 |:signal_strength:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f6.png?v8" alt="antenna bars" style="width:20px" />|`:signal_strength:`|antenna bars|
+|:wireless:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6dc.png?v8" alt="wireless" style="width:20px" />|`:wireless:`|wireless|
 |:vibration_mode:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f3.png?v8" alt="vibration mode" style="width:20px" />|`:vibration_mode:`|vibration mode|
 |:mobile_phone_off:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f4.png?v8" alt="mobile phone off" style="width:20px" />|`:mobile_phone_off:`|mobile phone off|
 
@@ -2289,6 +2346,7 @@ This list includes all the usable Emoji icon shortcodes in GitHub Markdown. The 
 |:heavy_plus_sign:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2795.png?v8" alt="plus" style="width:20px" />|`:heavy_plus_sign:`|plus|
 |:heavy_minus_sign:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png?v8" alt="minus" style="width:20px" />|`:heavy_minus_sign:`|minus|
 |:heavy_division_sign:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/2797.png?v8" alt="divide" style="width:20px" />|`:heavy_division_sign:`|divide|
+|:heavy_equals_sign:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f7f0.png?v8" alt="heavy equals sign" style="width:20px" />|`:heavy_equals_sign:`|heavy equals sign|
 |:infinity:|<img src="https://github.githubassets.com/images/icons/emoji/unicode/267e.png?v8" alt="infinity" style="width:20px" />|`:infinity:`|infinity|
 
 
